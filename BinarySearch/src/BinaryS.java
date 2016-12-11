@@ -11,10 +11,10 @@ public class BinaryS {
             short midVal = a[mid];
             if(e < midVal) high = midVal-1;
             else if(e > midVal) low = midVal+1;
-            else return midVal;
+            else return mid;
         }
 
-        return 0;
+        return -1;
     }
 
     public static void main(String[] args){
